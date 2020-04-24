@@ -1,0 +1,45 @@
+.app {
+    display:flex;
+    width: 100vw;
+    height:100vh;
+    justify-content: center;
+    align-items : center;
+    flex-direction:column
+}
+
+  
+
+    .timer {
+       
+        width:150px;
+        text-align:center;
+        height:15px;
+        padding:17px;
+        color: #ff007f;
+        font-size: 30px;
+        background: rgba(0,0,0,0.05);
+        border-radius:8px 8px 0px 0px;
+    }
+
+    .buttons {
+      
+        height:15px;
+        text-align:center;
+        width:150px;
+        padding:15px;
+        background:#f3f3f3;
+        border-radius: 0px 0px 8px 8px;
+
+    }
+
+
+
+
+
+
+body{
+    background-size: cover;
+    font-family: "Helvetica", sans-serif;
+    background-position:top center;
+    background-image: url("https://media.giphy.com/media/51qQRgipR0Fb2/giphy.gif");
+}
